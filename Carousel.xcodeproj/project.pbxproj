@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21C351619F80AD0003A3322 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21C351519F80AD0003A3322 /* Common.swift */; };
+		F247B10A19FF07400039AD02 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247B10919FF07400039AD02 /* SignUpViewController.swift */; };
+		F27B377B19F82D4E00A1C685 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B377A19F82D4E00A1C685 /* TutorialViewController.swift */; };
+		F27B377F19F83A2D00A1C685 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B377E19F83A2D00A1C685 /* TimelineViewController.swift */; };
+		F27B378119F83FEA00A1C685 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B378019F83FEA00A1C685 /* ConversationViewController.swift */; };
+		F27B378319F840DE00A1C685 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B378219F840DE00A1C685 /* SettingsViewController.swift */; };
 		F2CA8E2B19F61011002FEDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA8E2A19F61011002FEDA2 /* AppDelegate.swift */; };
 		F2CA8E2D19F61011002FEDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA8E2C19F61011002FEDA2 /* ViewController.swift */; };
 		F2CA8E3019F61011002FEDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CA8E2E19F61011002FEDA2 /* Main.storyboard */; };
 		F2CA8E3219F61011002FEDA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CA8E3119F61011002FEDA2 /* Images.xcassets */; };
 		F2CA8E3519F61011002FEDA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CA8E3319F61011002FEDA2 /* LaunchScreen.xib */; };
 		F2CA8E4119F61011002FEDA2 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA8E4019F61011002FEDA2 /* CarouselTests.swift */; };
+		F2CA8E4B19F61409002FEDA2 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA8E4A19F61409002FEDA2 /* IntroViewController.swift */; };
+		F2CA8E4D19F62285002FEDA2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA8E4C19F62285002FEDA2 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F21C351519F80AD0003A3322 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F247B10919FF07400039AD02 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F27B377A19F82D4E00A1C685 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		F27B377E19F83A2D00A1C685 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineViewController.swift; path = Carousel/TimelineViewController.swift; sourceTree = "<group>"; };
+		F27B378019F83FEA00A1C685 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		F27B378219F840DE00A1C685 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F2CA8E2519F61011002FEDA2 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CA8E2919F61011002FEDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2CA8E2A19F61011002FEDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,8 @@
 		F2CA8E3A19F61011002FEDA2 /* CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CA8E3F19F61011002FEDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2CA8E4019F61011002FEDA2 /* CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTests.swift; sourceTree = "<group>"; };
+		F2CA8E4A19F61409002FEDA2 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		F2CA8E4C19F62285002FEDA2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,7 @@
 		F2CA8E1C19F61011002FEDA2 = {
 			isa = PBXGroup;
 			children = (
+				F27B377E19F83A2D00A1C685 /* TimelineViewController.swift */,
 				F2CA8E2719F61011002FEDA2 /* Carousel */,
 				F2CA8E3D19F61011002FEDA2 /* CarouselTests */,
 				F2CA8E2619F61011002FEDA2 /* Products */,
@@ -80,6 +97,13 @@
 				F2CA8E2A19F61011002FEDA2 /* AppDelegate.swift */,
 				F2CA8E2C19F61011002FEDA2 /* ViewController.swift */,
 				F2CA8E2E19F61011002FEDA2 /* Main.storyboard */,
+				F27B378019F83FEA00A1C685 /* ConversationViewController.swift */,
+				F27B378219F840DE00A1C685 /* SettingsViewController.swift */,
+				F247B10919FF07400039AD02 /* SignUpViewController.swift */,
+				F27B377A19F82D4E00A1C685 /* TutorialViewController.swift */,
+				F2CA8E4C19F62285002FEDA2 /* SignInViewController.swift */,
+				F21C351519F80AD0003A3322 /* Common.swift */,
+				F2CA8E4A19F61409002FEDA2 /* IntroViewController.swift */,
 				F2CA8E3119F61011002FEDA2 /* Images.xcassets */,
 				F2CA8E3319F61011002FEDA2 /* LaunchScreen.xib */,
 				F2CA8E2819F61011002FEDA2 /* Supporting Files */,
@@ -212,8 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CA8E4D19F62285002FEDA2 /* SignInViewController.swift in Sources */,
+				F2CA8E4B19F61409002FEDA2 /* IntroViewController.swift in Sources */,
+				F27B378119F83FEA00A1C685 /* ConversationViewController.swift in Sources */,
 				F2CA8E2D19F61011002FEDA2 /* ViewController.swift in Sources */,
+				F247B10A19FF07400039AD02 /* SignUpViewController.swift in Sources */,
+				F21C351619F80AD0003A3322 /* Common.swift in Sources */,
+				F27B377F19F83A2D00A1C685 /* TimelineViewController.swift in Sources */,
+				F27B377B19F82D4E00A1C685 /* TutorialViewController.swift in Sources */,
 				F2CA8E2B19F61011002FEDA2 /* AppDelegate.swift in Sources */,
+				F27B378319F840DE00A1C685 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				F2CA8E4619F61011002FEDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2CA8E4719F61011002FEDA2 /* Build configuration list for PBXNativeTarget "CarouselTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				F2CA8E4919F61011002FEDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
