@@ -1,6 +1,6 @@
 Carousel
 ========
-Hours taken: 3
+Hours taken: 4
 
 Completed:
 Static photo tiles on the initial screen
